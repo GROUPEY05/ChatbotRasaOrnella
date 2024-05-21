@@ -1,0 +1,29 @@
+version: "3.1"
+
+rules:
+
+- rule: saluer un utilisateur
+  steps:
+  - intent: saluer
+  - action: utter_saluer
+
+- rule: remercier un utilisateur
+  steps:
+  - intent: remerciement
+  - action: utter_remerciement
+
+
+- rule: donner le lieu à un utilisateur
+  steps:
+  - intent: lieu
+  - action: utter_lieu
+
+- rule: donner le Directeur_nom à un utilisateur
+  steps:
+  - intent: Directeur_nom
+  - action: utter_Directeur_nom
+
+- rule: donner les frais_scolarité_DUT_jour à un utilisateur
+  steps:
+  - intent: frais_scolarité_DUT_jour
+  - action: utter_frais_scolarité_DUT_jour

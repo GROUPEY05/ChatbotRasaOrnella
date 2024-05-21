@@ -1,0 +1,39 @@
+version: "3.1"
+
+nlu:
+- intent: saluer
+  examples: |
+    - salut 
+    - bonjour
+    - bonsoir
+    - allô
+    - allo
+    - hello
+    - hi
+    - good morning
+    - slt
+- intent: remerciement
+  examples: |
+    - merci
+    - merci de m'avoir aider
+    - thank you
+    - thank
+- intent: lieu
+  examples: |
+    - ou se trouve l'iut?? 
+    - l'iut est ou svp??
+    - localisation??
+    - position de l'iut ??
+- intent: Directeur_nom
+  examples: |
+    - Qui est le directeur de l’iut??
+    - comment s'appelle le directeur de l'iut de Douala??
+    - quel est le nom du directeur de l'iut de douala??
+    - nom du directeur svp
+
+- intent: frais_scolarité_DUT_jour
+  examples: |
+    - combien coûte la pension en 1 ere année cours du jours dut??
+    - frais de scolarité cours du jour DUT
+    - pension pour cycle DUT svp???
+    

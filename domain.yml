@@ -1,0 +1,29 @@
+version: "3.1"
+
+intents:
+  - saluer
+  - remerciement
+  - lieu
+  - Directeur-nom
+  - frais_scolarité_DUT_jour
+
+
+responses:
+  utter_saluer:
+  - text: "Hello ! Comment puis-je t'aider aujourd'hui ?"
+
+  utter_remerciement:
+  - text: "Je suis heureux d'avoir pu t'aider. N'hésite pas à revenir si tu as d'autres questions."
+
+  utter_lieu:
+    - text: "l'iut  de Douala est situé dans le quartier ndogbong précisément château d'eau de ndogbong, 21422 ndogbong, Douala "
+  utter_Directeur_nom:
+    - text: "le Directeur de l'iut de Douala est le Pr Jacques ETAME"
+  utter_frais_scolarité_DUT_jour:
+    - text: "les frais de scolarité du cycle DUT cours du jour s'élève à 50000fr"
+
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

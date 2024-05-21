@@ -1,0 +1,34 @@
+version: "3.1"
+
+stories:
+
+- story: saluer path
+  steps:
+  - intent: saluer
+  - action: utter_saluer
+
+- story: remerciement path
+  steps:
+  - intent: remerciement
+  - action: utter_remerciement
+
+
+- story: lieu path
+  steps:
+  - intent: lieu
+  - action: utter_lieu
+
+
+- story: Directeur_nom path
+  steps:
+  - intent: Directeur_nom
+  - action: utter_Directeur_nom
+
+- story: frais_scolarité_DUT_jour path
+  steps:
+  - intent: frais_scolarité_DUT_jour
+  - action: utter_frais_scolarité_DUT_jour
+
+
+
+
